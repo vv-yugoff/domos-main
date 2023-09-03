@@ -240,8 +240,8 @@
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        margin-left: 140px;
-        margin-right: 140px;
+        /* margin-left: 140px; */
+        /* margin-right: 140px; */
         margin-top: 100px;
     }
     
@@ -266,5 +266,53 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-      }
+    }
+
+    /* FIFTH BLOCK */
+
+
+    .questions-answers {
+        font-size: 21px;
+    }
+    
+    .block-questions-answers {
+        border: solid 1px #00102F;
+        padding: 0 50px;
+        margin-bottom: 40px;
+    }
+    
+    .questions {
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+        margin-top: 50px;
+    }
+    
+    /* .questions-answers {
+        max-width: 1157px;
+    } */
+    
+    .answers {
+        display: flex;
+        padding-bottom: 50px;
+        /* width: 1057px; */
+    }
+
+    .intro-question {
+        margin-right: 40px;
+    }
+
+    .intro-answer {
+        margin-right: 50px;
+    }
+
+    /* .intro.answers {
+        width: 1126px;
+    } */
+
+    .intro-question-question {
+        text-align: left;
+    }
+
+
 }
