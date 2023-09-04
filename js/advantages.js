@@ -3,13 +3,12 @@ const letters = text.innerText.split("");
 
 const spannedText = letters.map((letter, i) => {
     const span = document.createElement("span");
+    
     span.innerText = letter;
     span.style.position = "absolute";
-    return span;
-});
-
-text.innerHTML = "";
-
-spannedText.forEach(span => {
+    span.style.transform = `rotate(${i * 10}deg)`;
+    
     text.appendChild(span);
 });
+
+text.querySelector('.text-advantages-title').style.color = "transparent";
