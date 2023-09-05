@@ -488,7 +488,9 @@
         padding-bottom: 10px;
     }
      
-
+    .map {
+        width: 100%;
+    }
 
 
 }
