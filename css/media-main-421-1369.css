@@ -189,6 +189,7 @@
         margin-right: 140px;
         margin-top: 82px;
         display: flex;
+        justify-content: center;
         width: 100%;
     }
     
@@ -209,7 +210,7 @@
     
     .team-word.first {
         text-align: right;
-        margin-left: 35px;
+        margin-left: 80px;
     }
     
     .team-word.second {
@@ -313,6 +314,97 @@
     .intro-question-question {
         text-align: left;
     }
+
+    /* SIXTH BLOCK */
+
+
+    .container {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+
+        /* padding-top: 100px; */
+        padding-bottom: 100px;
+    }
+     
+    .submit-your-application {
+        color: #00102F;
+        width: 200px;
+        height: 50px;
+        border: 1px solid #00102F;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+
+        margin-right: 10px;
+        padding-left: 10px;
+    }
+
+    .submit-your-application-blue {
+        background-color: #00102F;
+        color: #EDF3FF;
+        justify-content: center;
+        border: 1px solid #00102F;
+        width: 200px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    /* SEVENTH BLOCK */
+
+    footer {
+        display: flex;
+        justify-content: center;
+        padding: 50px 0;
+        width: 100%;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .footer {
+        display: flex;
+    }
+
+    .text-footer {
+        padding-bottom: 10px;
+    }
+
+    .mail-footer {
+        display: flex;
+        padding-bottom: 10px;
+    }
+
+    .mail-footer-name {
+        margin-right: 10px;
+    }
+
+    .tel-footer {
+        display: flex;
+        padding-bottom: 10px;
+    }
+
+    .tel-footer-name {
+        margin-right: 10px;
+    }
+
+    .column {
+        flex: 1;
+        padding: 0 100px;
+    }
+      
+    ul {
+        list-style-type: none;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+
+    li {
+        padding-bottom: 10px;
+    }
+     
 
 
 }
