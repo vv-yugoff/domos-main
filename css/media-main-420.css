@@ -1,4 +1,4 @@
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 449px) {
 
     body {
         background-image: url('../images/background.png');
@@ -114,6 +114,103 @@
         font-family: 'Open Sans', sans-serif;
     }
 
+    /* TWOTH */
+
+    .intro.advantages {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
+      
+    .container-advantages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+      
+    .row {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+      
+    .circle {
+        position: relative;
+        width: 360px;
+        height: 360px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #EDF3FF;
+        margin: 10px 45px;
+    }
+      
+    .logo {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: url(../images/advantages-one.png);
+        background-size: cover;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+      
+    .text-advantages {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        animation: animate 30s linear infinite;
+    }
+      
+    .text-advantages p span {
+        position: absolute;
+        left: 50%;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        transform-origin: 0 175px;
+        top: -40px;
+    }
+      
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    .circle {
+        width: 270px;
+        height: 270px;
+        margin: 40px 0;
+    }
+
+    .row.one .circle:nth-child(1),
+    .row.one .circle:nth-child(2) {
+    display: none;
+    }
+
+    .row.three .circle:nth-child(2) {
+    display: none;
+    }
+
+    @keyframes animate {
+        0%
+        {
+            transform: rotate(360deg);
+        }
+        100%
+        {
+            transform: rotate(0deg);
+        }
+    }
+
     /* THIRD BLOCK */
     
     .intro.cases {
@@ -129,13 +226,55 @@
 
     .team-word.first {
         text-align: initial;
+        margin-bottom: 10px;
     }
 
     .team-word span {
         color: #B1B1B1;
     }
 
+    .team.two {
+        display: flex;
+        flex-direction: column;
+    }
+     
+    .team.first .team-photo {
+        /* order: -1; */
+        margin-bottom: 10px;
+    }
+
+    .team.two .team-photo {
+        order: -1;
+        margin-bottom: 10px;
+    }
+
+    .team-photo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .team.first {
+        display: none;
+    }
+
     /* FORTH BLOCK */
+      
+    .experts-all {
+        display: flex;
+        overflow-x: auto; /* Добавляем горизонтальную прокрутку */
+        scroll-snap-type: x mandatory; /* Включаем "прилипание" к карточкам */
+    }
+      
+    .expert-photo {
+        position: relative;
+        width: 100%;
+        flex-shrink: 0; /* Запрещаем уменьшение ширины карточек */
+        margin-right: 10px;
+        scroll-snap-align: center; /* Выравниваем карточки по центру */
+        margin-right: 5px;
+        display: flex;
+        justify-content: center;
+    }
 
     .intro.experts {
         display: flex;
@@ -148,12 +287,32 @@
         line-height: normal;
     }
 
+    .experts-all {
+        flex-wrap: nowrap; /* Отменяем перенос карточек на новую строку */
+    }
+
+    .expert-photo .overlay {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        padding: 10px;
+        text-align: center;
+        color: #EDF3FF;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    
+
     /* FIFTH BLOCK */
 
     .intro.answers {
         display: flex;
         justify-content: center;
-        padding-bottom: 30px;
+        /* padding-bottom: 30px; */
         padding-top: 30px;
         
         font-style: italic;
@@ -190,10 +349,12 @@
 
     .intro-question {
         margin-right: 40px;
+        font-weight: bold;
     }
 
     .intro-answer {
         margin-right: 50px;
+        font-weight: bold;
     }
 
     .intro-question-question {
