@@ -25,24 +25,72 @@
         justify-content: center;
 
         background-image: url("./../images/header-background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .navigation {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        
         width: 1143px;
+
+        
+    }
+
+    .menu-btn {
+        display: flex;
+        align-items: center;
+        width: 24px;
+    }
+
+    .header-logo {
+        display: flex;
+        align-items: center;
+
+        width: 113px;
+
+        margin-right: auto;
+        padding-left: 28px;
+    }
+
+    .header-logo img {
+        display: block;
     }
 
     .header-application {
         display: flex;
         flex-direction: row;
+        
+        width: 458px;
+        height: 60px;
     }
-    
-    .menu-btn {
+
+    .header-application div {
         display: flex;
+        justify-content: center;
         align-items: center;
-        width: 24px;
+
+        border: 1px solid #EDF3FF;
+    }
+
+    .application--messanger {
+        width: 60px;
+    }
+
+    .application--title,
+    .application--phone {
+        width: 200px;
+    }
+
+    .application--title a,
+    .application--phone a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #EDF3FF;
     }
 
     main {
