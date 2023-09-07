@@ -1,0 +1,63 @@
+.logo-container {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.half {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.left {
+    background-color: #EDF3FF;
+}
+
+.question-left {
+    color: #00102F;
+    text-align: left;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right {
+    background-color: #00102F;  
+}
+
+.question-right {
+    color: #EDF3FF;
+    text-align: right;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content {
+    width: 545px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-container {
+    position: absolute;
+    bottom: 82px;
+    margin: auto;
+}
