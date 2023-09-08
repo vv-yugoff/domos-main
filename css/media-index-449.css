@@ -32,7 +32,7 @@
         width: 50%;
         display: flex;
         position: absolute;
-        bottom: 5%;
+        bottom: 10%;
         right: 0px;
     }
 
@@ -52,6 +52,7 @@
         height: 100%;
         background-color: #00102F;
         -webkit-mask-image: linear-gradient(to bottom right, transparent 50%, #EDF3FF 50%);
+        mask-image: linear-gradient(to bottom right, transparent 50%, #EDF3FF 50%);
     }
 
     .right {
