@@ -502,15 +502,28 @@
         font-weight: 400;
         line-height: normal;
     }
+
+    .team-word button {
+        margin-top: 5px;
+        padding: 0;
+    }
     
     .team-word.first {
         text-align: right;
         margin-left: 55px;
     }
     
+    .team-word.first button {
+        margin-left: auto;
+    }
+
     .team-word.second {
         text-align: left;
         margin-right: 55px;
+    }
+
+    .team-word.second button {
+        margin-right: auto;
     }
       
     .team-photo {
@@ -519,12 +532,21 @@
         flex-shrink: 0;
     }
     
-    .team-word span {
-        color: #B1B1B1;
+    .team-word button {
         font-size: 30px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        
+        border: none;
+        color: #B1B1B1;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    #more {
+        display: none;
+        word-wrap: break-word;
     }
     
     
