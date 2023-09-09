@@ -1,11 +1,21 @@
 @media only screen and (max-width: 449px) {
 
+    html {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
     body {
         background-image: url('../images/background.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
+        
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
     }
     
     body::before {
