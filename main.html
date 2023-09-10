@@ -14,26 +14,82 @@
     
   </head>
   <body>
-    
+    <header>
+      <nav class="navigation">
 
-    <!-- <header>
-      <div class="title">
-        <div class="left-menu">
-          <div class="menu"></div>
-          <div class="logo"></div>
+        <div class="menu-btn">
+          <a href="#">
+            <img src="/images/menu-btn.svg" alt="Кнопка меню">
+          </a>
         </div>
-        <div class="right-menu">
-          <div class="whatsapp"></div>
-          <div class="submit-app"></div>
-          <div class="phone"></div>
+
+        <div class="header-logo">
+          <a href="#">
+            <img src="/images/logo_domos_white.png" alt="Логотип Домос">
+          </a>
+        </div>
+
+        <div class="header-application">
+          <div class="application--messanger">
+            <a href="#">
+              <img src="/images/whatsapp.svg" alt="Логотип Whatsapp" width="27.6" height="27.6">
+            </a>
+          </div>
+
+          <div class="application--title">
+            <a href="#">Оставить заявку</a>
+          </div>
+
+          <div class="application--phone">
+            <a href="tel:+79122472687">+7 (912) 247-26-87</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <h2>выплачиваем <span>100%</span> комиссии!</h2>
+      </div>
+      
+      <div class="application-form">
+        <p>оставьте заявку и мы вам перезвоним</p>
+
+        <div class="application-form--fields">
+          <input type="text" name="" id="" placeholder="Ваше имя">
+          <input type="text" name="" id="" placeholder="Ваш номер телефона">
+          <input type="text" name="" id="" placeholder="Ваша почта">
+          <input type="submit" name="" id="" value="Оставить заявку">
         </div>
       </div>
-      <div class="intro-main">Выплачиваем 100% комиссии</div>
-      <div class="submit-app-center">
-        <div class="submit-app-center p"></div>
-        <div class="submit-app-block"></div>
+
+      <div class="hero--title">
+        <h1>домос - коворкинг топовых риелторов</h1>
+
+        <div class="hero--contacts">
+
+          <div class="hero--contacts left">
+            <p>
+              <b>Почта:</b> 
+              <a href="mailto:info@domos-top.ru">info@domos-top.ru</a>
+            </p>
+            
+            <p>
+              <b>Телефон:</b> 
+              <a href="tel:89122472687">8 (912) 247-26-87</a>
+            </p>
+          </div>
+
+          <div class="hero--contacts right">
+            <p>
+              <b>Екатеринбург, Радищева 6а</b>
+            </p>
+
+            <p>Часы работы: с 9:00-18:00</p>
+          </div>
+
+        </div>
+
       </div>
-    </header> -->
+    </header>
     
     <main>
       <div class="block company">
@@ -71,13 +127,13 @@
 
             <div class="row one">
               <div class="circle">
-                <div class="logo"></div>
+                <div class="logo one"></div>
                 <div class="text-advantages">
                   <p><span class="text-advantages-title">успешная современная команда</span></p>
                 </div>
               </div>
               <div class="circle">
-                <div class="logo"></div>
+                <div class="logo two"></div>
                 <div class="text-advantages">
                   <p><span class="text-advantages-title">постоянная поддержка юриста</span></p>
                 </div>
@@ -86,7 +142,7 @@
             
             <div class="row two">
               <div class="circle">
-                <div class="logo"></div>
+                <div class="logo three"></div>
                 <div class="text-advantages">
                   <p><span class="text-advantages-title">выплата 100% комиссии после сделки</span></p>
                 </div>
@@ -95,13 +151,13 @@
             
             <div class="row three">
               <div class="circle">
-                <div class="logo"></div>
+                <div class="logo four"></div>
                 <div class="text-advantages">
                   <p><span class="text-advantages-title">постоянные обучения</span></p>
                 </div>
               </div>
               <div class="circle">
-                <div class="logo"></div>
+                <div class="logo five"></div>
                 <div class="text-advantages">
                   <p><span class="text-advantages-title">нет обязательных посещений офиса</span></p>
                 </div>
@@ -115,27 +171,51 @@
         <div class="intro-block">
           <div class="intro cases">кейсы от других риелторов</div>
         </div>
-        <div class="team first">
+
+        <article class="team first">
+
           <div class="team-photo">
             <img src="./images/team-first.png" alt="team-first">
           </div>
+
           <div class="team-word first">
-            Сменить агентство на ЦН Домос для меня: это как из хрущевки в небольшом городе переехать в центр мегаполиса в квартиру бизнес-класса.
-            Вроде все тоже самое, но далеко не тоже самое</br>
-            <span>Узнать больше</span>
+            <span>
+              Сменить агентство на ЦН Домос для меня: это как из хрущевки в небольшом городе переехать в центр мегаполиса в квартиру бизнес-класса.
+              Вроде все тоже самое, но далеко не тоже самое<span id="dots">...</span>
+              <span id="more">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Tempore debitis fugiat necessitatibus similique alias deleniti! Exercitationem, consequatur hic! 
+                Possimus quidem id repellat veniam ab eaque cumque vero soluta fugit deleniti.
+              </span></br>
+              <button id="btn-more" onclick="readMore(this)">Узнать больше</button>
+            </span>
           </div>
-        </div>
-        <div class="team two">
+
+        </article>
+
+        <article class="team second">
+
           <div class="team-word second">
-            Сменить агентство на ЦН Домос для меня: это как из хрущевки в небольшом городе переехать в центр мегаполиса в квартиру бизнес-класса.
-            Вроде все тоже самое, но далеко не тоже самое</br>
-            <span>Узнать больше</span>
+            <span>
+              Сменить агентство на ЦН Домос для меня: это как из хрущевки в небольшом городе переехать в центр мегаполиса в квартиру бизнес-класса.
+              Вроде все тоже самое, но далеко не тоже самое<span id="dots">...</span>
+              <span id="more">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Tempore debitis fugiat necessitatibus similique alias deleniti! Exercitationem, consequatur hic! 
+                Possimus quidem id repellat veniam ab eaque cumque vero soluta fugit deleniti.
+              </span></br>
+              <button id="btn-more" onclick="readMore(this)">Узнать больше</button>
+            </span>
           </div>
+
           <div class="team-photo">
             <img src="./images/team-second.png" alt="team-second">
           </div>
-        </div>
+
+        </article>
+
       </div>
+
       <div class="block experts">
         <div class="intro experts">команда экспертов</div>
         <div class="experts-all">
@@ -268,7 +348,7 @@
     </footer>
     
     <script src="./js/advantages.js"></script>
-
+    <script src="./js/article-text.js"></script>
   </body>
   </html>
   

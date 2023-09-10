@@ -6,8 +6,8 @@
     <title>Domos</title>
     
     <link rel="stylesheet" type="text/css" href="./css/base.css">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/media-index.css">
+    <link rel="stylesheet" type="text/css" href="./css/media-index-449.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
     
@@ -16,71 +16,43 @@
 <body>
 
     <header>
-      <!-- <div class="logo-container">
-        <img src="./images/logo_domos_blue.png" alt="Логотип">
-        <img src="./images/logo_domos_white.png" alt="Логотип">
-      </div> -->
+      <div class="logo-container">
+        <img src="./images/logo_domos.png" alt="Логотип">
+      </div>
     </header>
     
     <main>
       <div class="container">
         <div class="half left">
             <div class="content">
-              <h1 class="question-left">
+                <h1 class="question-left">
                     ТЫ ХОЧЕШЬ СТАТЬ ЧАСТЬЮ
-                    УСПЕШНОЙ КОМАНДЫ 
-                    ДОМОС?
+                    УСПЕШНОЙ КОМАНДЫ ДОМОС?
                 </h1>
-                    <div class="svg-container" onclick="fadeOutSVG()">
-                      <svg xmlns="http://www.w3.org/2000/svg" 
-                        width="146" 
-                        height="143" 
-                        viewBox="0 0 146 143" 
-                        fill="none">
-                        <path 
-                          d="M36.7552 10.0292L73 0.516932L109.245 10.0292L135.773 36.0125L145.482 71.5L135.773 106.988L109.245 132.971L73 142.483L36.7552 132.971L10.2267 106.988L0.518372 71.5L10.2267 36.0125L36.7552 10.0292Z" 
-                          stroke="#00102F"/>
-                        <text 
-                          x="50%" 
-                          y="50%" 
-                          text-anchor="middle" 
-                          dominant-baseline="middle" 
-                          font-size="22px" 
-                          fill="#00102F">ЗАЖМИ
-                        </text>
-                      </svg>
-                    </div>
-              </div>
+                <div class="svg-container" onmouseenter="startFadeOut()" onmouseleave="stopFadeOut()">
+                    <svg id="svg1" xmlns="http://www.w3.org/2000/svg" width="146" height="143" viewBox="0 0 146 143" fill="none">
+                        <path d="M36.7552 10.0292L73 0.516932L109.245 10.0292L135.773 36.0125L145.482 71.5L135.773 106.988L109.245 132.971L73 142.483L36.7552 132.971L10.2267 106.988L0.518372 71.5L10.2267 36.0125L36.7552 10.0292Z" stroke="#00102F"/>
+                        <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-size="22px" fill="#00102F">ЗАЖМИ</text>
+                    </svg>
+                </div>
             </div>
-            <div class="half right">
-              <div class="content">
+        </div>
+        
+        <div class="half right">
+            <div class="content">
                 <h1 class="question-right">
-                    ТЫ ПЛАНИРУЕШЬ ОПЕРАЦИИ С
-                    НЕДВИЖИМОСТЬЮ И ТЕБЕ
-                    НУЖНА ПОМОЩЬ?
+                    ТЫ ХОЧЕШЬ СТАТЬ ЧАСТЬЮ
+                    УСПЕШНОЙ КОМАНДЫ ДОМОС?
                 </h1>
-                    <div class="svg-container" onclick="fadeOutSVG()">
-                      <svg xmlns="http://www.w3.org/2000/svg" 
-                        width="146" 
-                        height="143" 
-                        viewBox="0 0 146 143" 
-                        fill="none">
-                        <path 
-                          d="M36.7552 10.0292L73 0.516932L109.245 10.0292L135.773 36.0125L145.482 71.5L135.773 106.988L109.245 132.971L73 142.483L36.7552 132.971L10.2267 106.988L0.518372 71.5L10.2267 36.0125L36.7552 10.0292Z" 
-                          stroke="#EDF3FF"/>
-                        <text 
-                          x="50%" 
-                          y="50%" 
-                          text-anchor="middle" 
-                          dominant-baseline="middle" 
-                          font-size="22px" 
-                          fill="#EDF3FF">ЗАЖМИ
-                        </text>
-                      </svg>
-                    </div>
-              </div>
+                <div class="svg-container" onmouseenter="startFadeOut()" onmouseleave="stopFadeOut()">
+                    <svg id="svg2" xmlns="http://www.w3.org/2000/svg" width="146" height="143" viewBox="0 0 146 143" fill="none">
+                        <path d="M36.7552 10.0292L73 0.516932L109.245 10.0292L135.773 36.0125L145.482 71.5L135.773 106.988L109.245 132.971L73 142.483L36.7552 132.971L10.2267 106.988L0.518372 71.5L10.2267 36.0125L36.7552 10.0292Z" stroke="#EDF3FF"/>
+                        <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-size="22px" fill="#EDF3FF">ЗАЖМИ</text>
+                    </svg>
+                </div>
             </div>
-          </div>
+        </div>
+      </div>
     </main>
 
     <footer>
