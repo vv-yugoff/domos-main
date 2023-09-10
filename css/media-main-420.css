@@ -57,6 +57,7 @@
         width: 100%;
 
         margin-bottom: 80px;
+        margin-top: 10px;
     }
 
     .menu-btn {
@@ -69,11 +70,12 @@
     .header-logo {
         display: flex;
         align-items: center;
+        justify-content: center;
 
-        width: 113px;
+        width: 100%;
 
-        margin-right: auto;
-        padding-left: 28px;
+        margin-right: 72px;
+        /* padding-left: 28px; */
     }
 
     .header-logo img {
@@ -81,7 +83,8 @@
     }
 
     .header-application {
-        display: flex;
+        /* display: flex; */
+        display: none;
         flex-direction: row;
         
         width: 458px;
@@ -99,15 +102,11 @@
     .application--messanger {
         width: 60px;
     }
-    
-    .application--title,
-    .application--phone {
-        display: none;
-    }
 
     .application--title,
     .application--phone {
         width: 200px;
+        /* display: none; */
     }
 
     .application--title a,
@@ -127,6 +126,8 @@
 
         margin-top: 0;
         margin-bottom: 26px;
+
+        text-align: center;
     }
 
     .hero h2,
@@ -139,18 +140,22 @@
     }
 
     .hero h2 {
-        width: 987px;
+        max-width: 987px;
 
-        font-size: 45px;
-        line-height: 70px;
+        font-size: 26px;
+        line-height: 0px;
 
         text-align: center;
-        white-space: nowrap;
         margin-bottom: 80px;
+        white-space: normal;
+        word-break: break-word;
+        hyphens: auto;
     }
 
     .hero h2 span {
-        font-size: 73px;
+        width: 100%;
+
+        font-size: 44px;
         line-height: 110px;
         color: inherit;
     }
@@ -166,30 +171,30 @@
     }
 
     .application-form p {
-        font-size: 22px;
+        font-size: 16px;
         line-height: 32px;
 
-        width: 650px;
+        max-width: 650px;
+        word-break: break-word;
 
-        margin-right: auto;
         margin-bottom: 26px;  
+        padding: 0 10px;
     }
 
     .application-form--fields {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        flex-wrap: nowrap;
         gap: 14px;
 
-        width: 834px;
+        width: 87%;
 
         margin-top: 0;
         margin-bottom: 120px;
     }
 
     .application-form--fields input {
-        width: 228px;
+        width: 100%;
         height: 70px;
 
         line-height: 22px;
@@ -211,6 +216,7 @@
 
         font-family: "Open Sans", sans-serif;
         font-size: 16px;
+        width: 106%;
 
         color: #00102F;
         background-color: #EDF3FF;
