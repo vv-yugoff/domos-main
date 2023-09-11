@@ -574,12 +574,31 @@
     }
     
     .team-word span {
-        color: #B1B1B1;
+        color: #00102F;
         font-size: 30px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
     }
+
+    .team-word button {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 0;
+        
+        border: none;
+        color: #B1B1B1;
+        background-color: transparent;
+        cursor: pointer;
+        font-family: Cormorant Garamond, Arial, sans-serif;
+    }
+
+    #more {
+        display: none;
+        word-wrap: break-word;
+    }   
     
     
     
