@@ -328,6 +328,7 @@
     }
     
     .block-director {
+        width: 100%;
         display: flex;
         /* justify-content: center; */
     }
@@ -338,9 +339,9 @@
         flex-direction: column;
         /* width: 625px; */
         height: 100%;
-        margin-top: 82px;
+        margin-top: 15px;
         /* text-align: initial; */
-        font-size: 30px;
+        font-size: 28px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -348,11 +349,12 @@
         /* word-break: break-all; */
         /* overflow-wrap: break-word; */
         word-wrap: break-word;
+        text-align: justify;
     }
     
     .company-button {
         display: flex;
-        margin-top: 40px;
+        /* margin-top: 40px; */
         flex-wrap: wrap;
     }
     
