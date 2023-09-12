@@ -11,6 +11,11 @@
     <link rel="stylesheet" type="text/css" href="./css/media-main-420.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- script
+      ================================================== -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./js/plugins.js"></script>
     
   </head>
   <body>
@@ -18,9 +23,23 @@
       <nav class="navigation">
 
         <div class="menu-btn">
-          <a href="#">
+          <div class="top-bar">
+      
+            <a class="menu-toggle" href="#"><span>Menu</span></a>
+
+            <nav id="main-nav-wrap">
+                <ul class="main-navigation">
+                    <li class="current"><a class="smoothscroll"  href="#intro" title="">Главная</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="">О компании</a></li>
+                    <li><a href="https://nkscapital.ru/portfolio.html" title="">Портфолио</a></li>
+                </ul>
+            </nav>
+        
+          </div>
+          <!-- <a href="#">
             <img src="./images/menu-btn.svg" alt="Кнопка меню">
-          </a>
+            <a class="menu-toggle is-clicked" href="#"><span>Menu</span></a>
+          </a> -->
         </div>
 
         <div class="header-logo">
@@ -128,7 +147,7 @@
         <div class="advantages">
           <div class="container-advantages">
 
-            <div class="row one">
+            <!-- <div class="row one">
               <div class="circle">
                 <div class="logo one"></div>
                 <div class="text-advantages">
@@ -165,7 +184,7 @@
                   <p><span class="text-advantages-title">нет обязательных посещений офиса</span></p>
                 </div>
               </div>
-            </div>
+            </div> -->
 
           </div>
         </div>
@@ -175,7 +194,7 @@
           <div class="intro cases">кейсы от других риелторов</div>
         </div>
 
-        <article class="team first">
+        <!-- <article class="team first">
 
           <div class="team-photo">
             <img src="./images/team-first.png" alt="team-first">
@@ -194,9 +213,9 @@
             </span>
           </div>
 
-        </article>
+        </article> -->
 
-        <article class="team second">
+        <!-- <article class="team second">
 
           <div class="team-word second">
             <span>
@@ -215,13 +234,13 @@
             <img src="./images/team-second.png" alt="team-second">
           </div>
 
-        </article>
+        </article> -->
 
       </div>
 
       <div class="block experts">
         <div class="intro experts">команда экспертов</div>
-        <div class="experts-all">
+        <!-- <div class="experts-all">
           <div class="expert-photo one">
             <img src="./images/expert-one.png" alt="expert-one">
             <div class="overlay">Иванова Дарья</div>
@@ -234,7 +253,7 @@
             <img src="./images/expert-three.png" alt="expert-three">
             <div class="overlay">Иванова Наталья</div>
           </div>
-        </div>
+        </div> -->
       </div>
       
       <div class="block answers">
@@ -326,11 +345,11 @@
         <div class="column two">
           <div class="mail-footer">
             <div class="mail-footer-name">Почта:</div>
-            <div class="mail-footer-mail">info@domos-top.ru</div>
+            <div class="mail-footer-mail"><a href="mailto:info@domos-top.ru">info@domos-top.ru</a></div>
           </div>
           <div class="tel-footer">
             <div class="tel-footer-name">Телефон:</div>
-            <div class="tel-footer-tel">8 (912) 247-26-87</div>
+            <div class="tel-footer-tel"><a href="tel:+79122472687">+7 (912) 247-26-87</a></div>
           </div>
           <div class="button-footer">
             <div class="button-footer-button">Оставить заявку</div>
@@ -350,6 +369,8 @@
       </div>
     </footer>
     
+    <script src="./js/jquery-2.1.3.min.js"></script>
+    <script src="./js/plugins.js"></script>
     <script src="./js/advantages.js"></script>
     <script src="./js/article-text.js"></script>
   </body>
