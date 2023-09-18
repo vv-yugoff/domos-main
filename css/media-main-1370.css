@@ -677,6 +677,69 @@
     
     /* THIRD BLOCK */
     
+    .cases--block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 7px;
+    }
+
+    .cases--wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 17px;
+    }
+
+    .cases--photos {
+        width: 750px;
+    }
+
+    .cases--description {
+        width: 400px;
+    }
+
+    .main-image {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .slider-preview {
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .slider-preview-item {
+        position: relative;
+    }
+
+    .slider-preview-item img {
+        display: block;
+    }
+
+    .slider-preview-item a:not(.active)::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .card--description-header {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .card--description-text {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    /* Проверить стили снизу!!! */
+
     .intro.cases {
         order: -1;
       }
