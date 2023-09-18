@@ -890,7 +890,11 @@
         align-items: center;
     }
 
+<<<<<<< HEAD
     .application-form--fields.additional {
+=======
+    .application-form--fields.application {
+>>>>>>> 67948a23535e5596e2afecdac16bec5395f1ae29
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -902,11 +906,15 @@
         margin-top: 30px;
     }
 
+<<<<<<< HEAD
     .application-form--fields.additional form {
         margin-bottom: 0;
     }
 
     .application-form--fields.additional form input {
+=======
+    .application-form--fields.application input {
+>>>>>>> 67948a23535e5596e2afecdac16bec5395f1ae29
         width: 228px;
         height: 70px;
         line-height: 22px;
@@ -914,7 +922,11 @@
         color: #00102F;
     }
 
+<<<<<<< HEAD
     .application-form--fields.additional form input[type="submit"] {
+=======
+    .application-form--fields.application input[type="submit"] {
+>>>>>>> 67948a23535e5596e2afecdac16bec5395f1ae29
         height: 74px;
         font-family: "Open Sans", sans-serif;
         font-size: 16px;
@@ -922,7 +934,11 @@
         background-color: #00102F;
     }
 
+<<<<<<< HEAD
     .application-form--fields.additional form input[type="text"]::placeholder {
+=======
+    .custom-input::placeholder {
+>>>>>>> 67948a23535e5596e2afecdac16bec5395f1ae29
         color: #00102F;
     }
 
