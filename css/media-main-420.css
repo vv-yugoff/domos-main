@@ -318,7 +318,7 @@
     }
 
     .application-form {
-        width: 100%;
+        width: 94%;
 
         display: flex;
         flex-direction: column;
@@ -336,6 +336,14 @@
 
         margin-bottom: 26px;  
         padding: 0 10px;
+    }
+
+    .application-form--fields {
+        width: 94%;
+    }
+
+    .application-form--fields {
+        width: 100%;
     }
 
     .application-form--fields form {
@@ -383,7 +391,7 @@
     .application-form--fields form input[type="text"] {
         font-family: inherit;
         font-size: 18px;
-        width: 100%;
+        width: 94%;
 
         padding-left: 17px;
         background-color: transparent;
@@ -398,10 +406,10 @@
 
         font-family: "Open Sans", sans-serif;
         font-size: 16px;
-        width: 110%;
+        width: 100%;
 
         color: #00102F;
-        background-color: #EDF3FF;
+        background-color: #ffffff;
     }
 
     .application-form--fields.additional form input[type="submit"] {
