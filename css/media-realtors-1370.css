@@ -1,0 +1,106 @@
+body {
+    /* background-image: url("../images/background.png");
+    background-color: #EDF3FF;
+    filter: brightness(1); */
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 60px;
+    margin-bottom: 44px;
+}
+
+.logo img {
+    display: block;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.title h2 {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+
+    color: #00102F;
+    text-transform: uppercase;
+}
+
+.application {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.application form {
+    display: grid;
+    grid-template-columns: repeat(4, 228px);
+    gap: 8px 0;
+
+    font-family: "Open Sans", sans-serif;
+}
+
+.application form label {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #000000;
+}
+
+.application form input,
+.application form select {
+    padding-left: 12px;
+    border: 1px solid #00102F;
+}
+
+.application form input {
+    height: 50px;
+}
+
+.application form select {
+    height: 54px;
+    cursor: pointer;
+}
+
+.application form input[type="button"] {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+
+    height: 54px;
+
+    color: #EDF3FF;
+    background-color: #00102F;
+    cursor: pointer;
+}
+
+/* .application form input[type="text"] {
+} */
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.realtors {
+    display: grid;
+    grid-template-columns: repeat(4, 226px);
+    width: 100%;
+    margin-top: 0;
+}
+
+.realtor {
+    /* height: ; */
+}
