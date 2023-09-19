@@ -415,7 +415,7 @@
     
     .intro {
         /* margin-left: 140px; */
-        margin-top: 82px;
+        margin-top: 81px;
         margin-right: 31px;
         color: #00102F;
         font-size: 21px;
@@ -608,72 +608,47 @@
         display: flex;
         max-width: 1126px;
         /* justify-content: center; */
-        margin-bottom: 82px;
+        margin-bottom: 81px;
         width: 100%;
-    }
-      
-    .images-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-      
-    .row {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-      
-    .image {
-        /* flex-basis: calc(25% - 20px); */
-        margin-bottom: 20px;
-        position: relative;
-    }
-      
-    .image-overlay {
-        position: relative;
-    }
-      
-    .image img {
-        width: 100%;
-        display: block;
-        /* border-radius: 5px; */
-    }
-      
-    .caption {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        padding: 10px;
-        /* background-color: rgba(0, 0, 0, 0.7); */
-        /* border-bottom-left-radius: 5px; */
-        /* border-bottom-right-radius: 5px; */
-    }
-      
-    .caption h4 {
-        color: #fff;
-        font-weight: bold;
-        margin: 0;
-    }
-      
-    .caption p {
-        color: #fff;
-        margin: 0;
     }
 
-    @keyframes animate {
-        0%
-        {
-            transform: rotate(360deg);
-        }
-        100%
-        {
-            transform: rotate(0deg);
-        }
+    .box1 {
+        grid-column: 1 / 2;
+        grid-row: 1;
     }
-
     
+    .box2 {
+        grid-column: 3;
+        grid-row: 1 / 2;
+    }
+    
+    .box3 {
+        grid-column: 4;
+        grid-row: 1;
+    }
+    
+    .box4 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .box5 {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .box6 {
+        grid-column: 4;
+        grid-row: 2;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 100px);
+        grid-column-gap: 20px;
+        grid-row-gap: 1em;
+    }
     
     /* THIRD BLOCK */
     
@@ -685,6 +660,7 @@
     }
 
     .cases--wrapper {
+        margin-top: 81px;
         display: flex;
         flex-direction: row;
         gap: 17px;
@@ -862,6 +838,7 @@
 
     .questions-answers {
         font-size: 21px;
+        margin-top: 31px;
     }
     
     .block-questions-answers {
