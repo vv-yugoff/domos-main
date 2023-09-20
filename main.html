@@ -218,20 +218,20 @@
           <div class="intro cases">кейсы от других риелторов</div>
             <div class="cases--wrapper">
               <div class="cases--photos">
-                <img src="./images/director.png" class="main-image" id="main-image" width="700" alt="Риелтор 1">
+                <img src="./images/advantages-one.png" class="main-image" id="main-image" width="700" alt="Риелтор 1">
                 <ul class="slider-preview">
                   <li class="slider-preview-item">
-                    <a href="./images/director.png" class="active">
+                    <a href="./images/advantages-one.png" class="active" id="1">
                       <img src="./images/advantages-one.png" width="100" height="100" alt="Риелтор 2">
                     </a>
                   </li>
                   <li class="slider-preview-item">
-                    <a href="./images/advantages-three.png">
+                    <a href="./images/advantages-three.png" id="2">
                       <img src="./images/advantages-three.png" width="100" height="100" alt="Риелтор 3">
                     </a>
                   </li>
                   <li class="slider-preview-item">
-                    <a href="./images/advantages-four.png">
+                    <a href="./images/advantages-four.png" id="3">
                       <img src="./images/advantages-four.png" width="100" height="100" alt="Риелтор 4">
                     </a>
                   </li>
@@ -239,14 +239,8 @@
               </div>
 
               <div class="cases--description">
-                <h2 class="card--description-header">Ираида Васильева</h2>
-                <p class="card--description-text">
-                  Сменить агентство на ЦН Домос для меня: это как из хрущевки в небольшом городе переехать в центр мегаполиса в квартирц бизнес-класса.
-                  Вроде все тоже самое, но далеко не тоже самое.
-
-                  Мои эмоции спустя почти 3 года в любимом Домосе не утихли ни на одну искорку. Я до сих пор не верю, что такое возможно. Отзывчивый коллектив профессионалов, где я ни дня не чувствовала себя лишней.
-                  Руководитель, который искренне окружает каждого сотрудника заботой и вниманием, любой вопрос решается в миг, при этом от суммы твоего дохода не зависит его доход, но он делает все для нашего высокого заработка. Мой доход вырос в 5 раз, за 9 месяцев работы в Домос. Обучения постоянно-не только в сфере недвижимости, а личностные - мой рост отмечают все, клиенты, с которыми мы работами много лет назад, родные, друзья.
-                </p>
+                <h2 class="card--description-header" id="case-realtor-name"></h2>
+                <p class="card--description-text" id="case-text"></p>
               </div>
             </div>
           </article>
@@ -387,7 +381,10 @@
     <script src="./js/top-bar.js"></script>
     <script src="./js/article-text.js"></script>
     <script src="./js/mail.js"></script>
-    <script src="./js/slider.js"></script>
+
+    <script type="module" src="./js/slider.js"></script>
+    <script type="module" src="./js/data/cases-data.js"></script>
+    
     <script src="./js/lib/jquery-2.1.3.min.js"></script>
     <script src="./js/lib/plugins.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
