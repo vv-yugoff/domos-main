@@ -612,88 +612,14 @@
         line-height: normal;
     }
       
-    .container-advantages {
+    .wrapper {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        max-width: 1200px;
-        margin: 0 auto;
+        overflow-x: auto;
     }
       
-    .row {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 16px;
-    }
-      
-    .circle {
-        position: relative;
-        width: 360px;
-        height: 360px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #EDF3FF;
-        margin: 10px 45px;
-    }
-      
-    .logo {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        background: url(../images/advantages-one.png);
-        background-size: cover;
-        border-radius: 50%;
-        overflow: hidden;
-    }
-      
-    .text-advantages {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        animation: animate 30s linear infinite;
-    }
-      
-    .text-advantages p span {
-        position: absolute;
-        left: 50%;
-        font-size: 1.5em;
-        text-transform: uppercase;
-        transform-origin: 0 175px;
-        top: -40px;
-    }
-      
-    .row {
-        flex-direction: column;
-        align-items: center;
-    }
-      
-    .circle {
-        width: 270px;
-        height: 270px;
-        margin: 40px 0;
-    }
-
-    .row.one .circle:nth-child(1),
-    .row.one .circle:nth-child(2) {
-    display: none;
-    }
-
-    .row.three .circle:nth-child(2) {
-    display: none;
-    }
-
-    @keyframes animate {
-        0%
-        {
-            transform: rotate(360deg);
-        }
-        100%
-        {
-            transform: rotate(0deg);
-        }
+    .box1, .box2, .box3, .box4, .box5, .box6 {
+        flex: 0 0 auto;
+        width: 101%;
     }
 
     /* THIRD BLOCK */
@@ -709,61 +635,17 @@
         line-height: normal;
     }
 
-    .team-word.first {
-        text-align: initial;
-        margin-bottom: 10px;
+    .slider-preview-item img {
+        display: block;
+        object-fit: cover;
+        object-position: top;
     }
 
-    .team-word.second {
-        margin-bottom: 10px;
-    }
-
-    .team-word span {
-        color: #00102F;
-    }
-
-    .team.two {
+    .slider-preview {
         display: flex;
-        flex-direction: column;
+        justify-content: flex-start;
+        gap: 14px;
     }
-     
-    .team.first .team-photo {
-        /* order: -1; */
-        margin-bottom: 10px;
-    }
-
-    .team.two .team-photo {
-        order: -1;
-        margin-bottom: 10px;
-    }
-
-    .team-photo {
-        display: flex;
-        justify-content: center;
-    }
-
-    .team.first {
-        display: none;
-    }
-
-    .team-word button {
-        font-size: 21px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        padding: 0;
-        
-        border: none;
-        color: #B1B1B1;
-        background-color: transparent;
-        cursor: pointer;
-        font-family: Cormorant Garamond, Arial, sans-serif;
-    }
-
-    #more {
-        display: none;
-        word-wrap: break-word;
-    } 
 
     /* FORTH BLOCK */
       
@@ -952,6 +834,7 @@ footer {
 } */
   
 ul {
+    /* display: flex; */
     list-style-type: none;
     padding: 0;
     padding-bottom: 10px;
