@@ -611,7 +611,11 @@
         margin-bottom: 81px;
         width: 100%;
     }
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> vachik
     .box1 {
         grid-area: 1 / 1 / 2 / 3;
         position: relative;
@@ -714,9 +718,13 @@
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.6);
+<<<<<<< HEAD
+=======
+    }
+>>>>>>> vachik
     
     /* THIRD BLOCK */
-    
+
     .cases--block {
         display: flex;
         flex-direction: column;
@@ -728,15 +736,15 @@
         margin-top: 81px;
         display: flex;
         flex-direction: row;
-        gap: 17px;
+        gap: 30px;
     }
 
     .cases--photos {
-        width: 750px;
+        width: 450px;
     }
 
     .cases--description {
-        width: 400px;
+        width: 700px;
     }
 
     .main-image {
@@ -747,7 +755,7 @@
     .slider-preview {
         display: flex;
         justify-content: flex-start;
-        gap: 10px;
+        gap: 14px;
     }
 
     .slider-preview-item {
@@ -756,6 +764,8 @@
 
     .slider-preview-item img {
         display: block;
+        object-fit: cover;
+        object-position: top;
     }
 
     .slider-preview-item a:not(.active)::before {
@@ -777,85 +787,17 @@
     .card--description-text {
         font-size: 22px;
         line-height: 26px;
+        white-space: pre-line;
     }
 
     /* Проверить стили снизу!!! */
 
     .intro.cases {
         order: -1;
+        margin-bottom: 50px;
+        margin-top: 50px;
       }
 
-
-    .team {
-        width: 1157px;
-        /* margin-left: 140px; */
-        /* margin-right: 140px; */
-        margin-top: 80px;
-        display: flex;
-    }
-    
-    .team-word {
-        display: flex;
-        width: 743px;
-        height: 488px;
-        flex-direction: column;
-        justify-content: center;
-        flex-shrink: 0;
-    
-        color: #00102F;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-
-    .team-word button {
-        margin-top: 5px;
-        padding: 0;
-    }
-    
-    .team-word.first {
-        text-align: right;
-        margin-left: 55px;
-    }
-    
-    .team-word.first button {
-        margin-left: auto;
-    }
-
-    .team-word.second {
-        text-align: left;
-        margin-right: 55px;
-    }
-
-    .team-word.second button {
-        margin-right: auto;
-    }
-      
-    .team-photo {
-        width: 360px;
-        height: 520px;
-        flex-shrink: 0;
-    }
-    
-    .team-word button {
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        
-        border: none;
-        color: #B1B1B1;
-        background-color: transparent;
-        cursor: pointer;
-        font-family: Cormorant Garamond, Arial, sans-serif;
-    }
-
-    #more {
-        display: none;
-        word-wrap: break-word;
-    }   
-    
     
     /* FOURTH BLOCK */
     
@@ -941,6 +883,7 @@
 
     .intro.answers {
         width: 1126px;
+        margin-top: 35px;
     }
 
     .intro-question-question {
