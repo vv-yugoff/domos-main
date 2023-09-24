@@ -33,7 +33,7 @@
 
     .top-bar {
         display: block;
-        min-width: 220px;
+        max-width: 270px;
         min-height: 66px;
         position: absolute;
         /* left: 90px; */
@@ -415,7 +415,7 @@
     
     .intro {
         /* margin-left: 140px; */
-        margin-top: 82px;
+        margin-top: 81px;
         margin-right: 31px;
         color: #00102F;
         font-size: 21px;
@@ -608,7 +608,7 @@
         display: flex;
         max-width: 1126px;
         /* justify-content: center; */
-        margin-bottom: 82px;
+        margin-bottom: 81px;
         width: 100%;
     }
       
@@ -726,6 +726,7 @@
     }
 
     .cases--wrapper {
+        margin-top: 81px;
         display: flex;
         flex-direction: row;
         gap: 30px;
@@ -837,6 +838,7 @@
 
     .questions-answers {
         font-size: 21px;
+        margin-top: 31px;
     }
     
     .block-questions-answers {
