@@ -676,7 +676,7 @@
     
     
     /* THIRD BLOCK */
-    
+
     .cases--block {
         display: flex;
         flex-direction: column;
@@ -745,79 +745,10 @@
 
     .intro.cases {
         order: -1;
+        margin-bottom: 50px;
+        margin-top: 50px;
       }
 
-
-    .team {
-        width: 1157px;
-        /* margin-left: 140px; */
-        /* margin-right: 140px; */
-        margin-top: 80px;
-        display: flex;
-    }
-    
-    .team-word {
-        display: flex;
-        width: 743px;
-        height: 488px;
-        flex-direction: column;
-        justify-content: center;
-        flex-shrink: 0;
-    
-        color: #00102F;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-
-    .team-word button {
-        margin-top: 5px;
-        padding: 0;
-    }
-    
-    .team-word.first {
-        text-align: right;
-        margin-left: 55px;
-    }
-    
-    .team-word.first button {
-        margin-left: auto;
-    }
-
-    .team-word.second {
-        text-align: left;
-        margin-right: 55px;
-    }
-
-    .team-word.second button {
-        margin-right: auto;
-    }
-      
-    .team-photo {
-        width: 360px;
-        height: 520px;
-        flex-shrink: 0;
-    }
-    
-    .team-word button {
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        
-        border: none;
-        color: #B1B1B1;
-        background-color: transparent;
-        cursor: pointer;
-        font-family: Cormorant Garamond, Arial, sans-serif;
-    }
-
-    #more {
-        display: none;
-        word-wrap: break-word;
-    }   
-    
     
     /* FOURTH BLOCK */
     
@@ -902,6 +833,7 @@
 
     .intro.answers {
         width: 1126px;
+        margin-top: 35px;
     }
 
     .intro-question-question {
