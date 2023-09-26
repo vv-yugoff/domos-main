@@ -560,6 +560,10 @@
         /* margin-top: 40px; */
         flex-wrap: wrap;
     }
+
+    .company-button a {
+        width: 100%;
+    }
     
     .tel-button {
         margin-top: 20px;
