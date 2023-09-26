@@ -24,15 +24,26 @@ for (let activeImage of previews) {
 }
 
 function renderBlock() {
-    name.innerHTML = cases[0].name;
-    text.innerHTML = cases[0].text;
+    if (text.classList.contains('mobile')) {
+        const shortText = cases[0].text.slice(0, Math.floor(cases[0].text.length * 0.25)) + '...';
+    
+        name.innerHTML = cases[0].name;
+        text.innerHTML = shortText;
+    } else {
+        name.innerHTML = cases[0].name;
+        text.innerHTML = cases[0].text;
+    }
+
+
 }
 
 function changeText(active) {
     cases.forEach((item) => {
         if (Number(active.id) === item.id) {
+            const shortText = item.text.slice(0, Math.floor(item.text.length * 0.25)) + '...';
+            console.log(shortText);
             name.innerHTML = item.name;
-            text.innerHTML = item.text;
+            text.innerHTML = shortText;
         }
     });
 }
