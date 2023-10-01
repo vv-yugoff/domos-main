@@ -529,16 +529,11 @@
     .intro-block-company {
         color: #00102F;
         display: flex;
-        /* width: 1028px; */
-        height: 100px;
-        /* margin-top: 50px; */
-        /* text-align: initial; */
         font-size: 42px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         vertical-align: top;
-        /* word-break: break-all; */
         word-wrap: break-word;
         margin-left: 30px;
     }
@@ -556,6 +551,7 @@
     .block-director {
         width: 100%;
         display: flex;
+        margin-top: 50px;
         /* justify-content: center; */
     }
     
@@ -697,6 +693,7 @@
     }
 
     .wrapper {
+        margin-top: 50px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -777,6 +774,8 @@
         flex-direction: column;
         justify-content: space-between;
         gap: 7px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .cases--wrapper {
@@ -888,7 +887,8 @@
     .block-questions-answers {
         border: solid 1px #00102F;
         padding: 0 50px;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
     }
     
     .questions {
@@ -904,7 +904,7 @@
     
     .answers {
         display: flex;
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
         /* width: 1057px; */
         width: 100%;
     }
@@ -971,7 +971,7 @@
         gap: 14px;
         /* width: 1017px; */
         margin-top: 0;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         /* margin-top: 30px; */
     }
 

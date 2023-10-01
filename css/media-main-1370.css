@@ -302,7 +302,7 @@
         width: 650px;
 
         margin-right: auto;
-        margin-bottom: 26px;  
+        margin-bottom: 5px;  
     }
 
     .application-form--fields form {
@@ -510,7 +510,7 @@
     .block-director {
         display: flex;
         /* justify-content: center; */
-        padding-top: 86px;
+        margin-top: 50px;
         width: 100%;
     }
     
@@ -549,7 +549,7 @@
     
     .company-button {
         display: flex;
-        margin-top: 50px;
+        margin-top: 20px;
     }
     
     .tel-button {
@@ -612,6 +612,10 @@
         width: 100%;
     }
 
+    /* .block.advantages {
+        margin-top: 50px;
+    } */
+
     .wrapper div {
         display: inline-block;
         overflow: none;
@@ -657,6 +661,8 @@
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 20px;
         grid-row-gap: 1em;
+
+        margin-top: 50px;
     }
 
     .wrapper img {
@@ -733,6 +739,7 @@
         flex-direction: column;
         justify-content: space-between;
         gap: 7px;
+        margin-top: 50px;
     }
 
     .cases--wrapper {
@@ -853,7 +860,8 @@
     .block-questions-answers {
         border: solid 1px #00102F;
         padding: 0 50px;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
     }
     
     .questions {
@@ -869,7 +877,7 @@
     
     .answers {
         display: flex;
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
         /* width: 1057px; */
     }
 
@@ -938,7 +946,7 @@
         gap: 14px;
         width: 1017px;
         margin-top: 0;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         margin-top: 30px;
     }
 
