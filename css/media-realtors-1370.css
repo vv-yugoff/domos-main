@@ -97,10 +97,33 @@ body {
 .realtors {
     display: grid;
     grid-template-columns: repeat(4, 226px);
-    width: 100%;
     margin-top: 0;
 }
 
 .realtor {
-    /* height: ; */
+    position: relative;
+    overflow: hidden;
+}
+
+.realtor a img {
+    display: block;
+    transition: transform 500ms ease;
+    /* filter: brightness(40%); */
+}
+
+.realtor a img:hover {
+    transform: scale(1.05);
+}
+
+.realtor a span {
+    width: 100%;
+
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    text-align: center;
+
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
 }
