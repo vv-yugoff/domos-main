@@ -2,18 +2,26 @@ import { realtors } from "./data/realtors-data.js";
 console.log(realtors);
 
 const realtorsBlock = document.querySelector('#realtors');
-const cards = [];
 
-const generateCards = (count) => {
+const generateCards = () => {
+    const cards = [];
 
-    for (let i = 0; i < count; i++) {
+    for (let i = 0; i < realtors.length; i++) {
         cards.push(
             `
                 <div class="realtor">
                     <a href="#">
-                        <img src="../images/slider/realtor-${i}.jpg" alt="Риелтор ${i}" width="226" height="326">
-                        <span>Имя ${i} человека</span>
+                        <img src="../images/filter/realtor-${i+1}.jpg" alt="Риелтор ${i+1}" width="226" height="326">
+                        <span>${realtors[i].name}</span>
                     </a>
+                </div>
+                <div class="options" style="display: none;">
+                    <span id="type-parametr">${realtors[i].type}</span>
+                    <span id="country-parametr">${realtors[i].country}</span>
+                    <span id="region-parametr">${realtors[i].region}</span>
+                    <span id="city-parametr">${realtors[i].city}</span>
+                    <span id="experience-parametr">${realtors[i].experience}</span>
+                    <span id="sex-parametr">${realtors[i].sex}</span>
                 </div>
             `
         );
@@ -22,7 +30,7 @@ const generateCards = (count) => {
     return cards;
 }
 
-const cardsArr = generateCards(10);
+const cardsArr = generateCards();
 realtorsBlock.innerHTML = cardsArr.join('');
 
 
